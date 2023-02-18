@@ -1,0 +1,11 @@
+/Users/squeeko/RustAxum-Tutorial/discord-oauth/target/debug/deps/libasync_trait-d78c2d9a81f822fe.dylib: /Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/lib.rs /Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/args.rs /Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/bound.rs /Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/expand.rs /Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/lifetime.rs /Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/parse.rs /Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/receiver.rs
+
+/Users/squeeko/RustAxum-Tutorial/discord-oauth/target/debug/deps/async_trait-d78c2d9a81f822fe.d: /Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/lib.rs /Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/args.rs /Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/bound.rs /Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/expand.rs /Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/lifetime.rs /Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/parse.rs /Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/receiver.rs
+
+/Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/lib.rs:
+/Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/args.rs:
+/Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/bound.rs:
+/Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/expand.rs:
+/Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/lifetime.rs:
+/Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/parse.rs:
+/Users/squeeko/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.64/src/receiver.rs:

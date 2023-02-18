@@ -1,0 +1,18 @@
+[package]
+name = "discord-oauth"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-session = "3.0.0"
+axum = { version = "0.6.7", features = ["headers"] }
+dotenv = "0.15.0"
+http = "0.2.9"
+oauth2 = "4.3.0"
+reqwest = { version = "0.11.14", default-features = false, features = ["rustls-tls", "json"] }
+serde = { version = "1.0.152", features = ["derive"] }
+tokio = { version = "1.25.0", features = ["full"] }
+tracing = "0.1.37"
+tracing-subscriber = { version = "0.3.16", features = ["env-filter"] }
