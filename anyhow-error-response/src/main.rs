@@ -1,6 +1,14 @@
 use axum::{
     http::StatusCode,
     response::{IntoResponse, Response},
+/*
+Trait for generating responses.
+
+Types that implement IntoResponse can be returned from handlers.
+You generally shouldn’t have to implement IntoResponse manually, as axum provides implementations for many common types.
+
+However it might be necessary if you have a custom error type that you want to return from handlers like shown below
+*/
     routing::get,
     Router,
 };
@@ -14,7 +22,15 @@ async fn main() {
     let addr = SocketAddr::from(([127, 0, 0, 1], 3000));
     println!("listening on {} ", addr);
     axum::Server::bind(&addr)
-        .serve(app.into_make_service())
+// Convert this router into a MakeService, that is a Service whose response is another service.
+/*
+Creates new Service values.
+
+Acts as a service factory. This is useful for cases where new Service values must be produced. One case is a TCP server listener. The listener accepts new TCP streams, obtains a new Service value using the MakeService trait, and uses that new Service value to process inbound requests on that new TCP stream.
+
+This is essentially a trait alias for a Service of Services.
+*/
+        .serve(app.into_make_service()) 
         .await
         .unwrap();
 }
