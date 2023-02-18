@@ -1,7 +1,8 @@
-use async_session::{MemoryStore, Session, SessionStore};
 /*
 This crate provides a generic interface between cookie values and storage backends to create a concept of sessions. It provides an interface that can be used to encode and store sessions, and decode and load sessions generating cookies in the process.
  */
+use async_session::{MemoryStore, Session, SessionStore};
+
 use axum::{
     async_trait,
     extract::{
@@ -15,6 +16,8 @@ use axum::{
 use dotenv::dotenv;
 
 use http::{header, request::Parts};
+
+// https://docs.rs/oauth2/latest/oauth2/
 use oauth2::{
     basic::BasicClient, reqwest::async_http_client, AuthUrl, AuthorizationCode, ClientId,
     ClientSecret, CsrfToken, RedirectUrl, Scope, TokenResponse, TokenUrl,
